@@ -256,7 +256,11 @@ if(file_exists($plik))
     <?php endif; ?>
 
     <hr>
-    <footer></footer>
+        <!-- przycisk dziala ale chrome go blokuje -->
+    <button type="button" class="btn-red" onclick="window.close()">Zamknij program</button>
+
+    <hr>
+    <footer>notes.php &mdash; System Notatek</footer>
 
 </div>
 
